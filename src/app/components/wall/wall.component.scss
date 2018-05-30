@@ -1,0 +1,21 @@
+.top {
+    margin-top: 2rem;
+}
+
+img.plus-icon {
+    max-width: 6.2rem;
+    cursor: pointer;
+}
+
+div.card-body {
+    button {
+        border: none;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+}
+
+.card {
+    min-height: 15rem !important;
+    max-height: 15rem !important;
+}

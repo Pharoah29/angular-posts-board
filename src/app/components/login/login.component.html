@@ -1,0 +1,31 @@
+<body>
+  <div class="container">
+
+    <form class="form-signin" #form="ngForm" (submit)="form.valid && login()" novalidate>
+      <h2 class="form-signin-heading">Posts Board System</h2>
+
+      <div class="form-group" [ngClass]="{'has-danger': (form.dirty && userName.invalid)}">
+        <label class="form-control-label sr-only" for="userName" class="sr-only">userName</label>
+        <input type="text" [(ngModel)]="user.userName" #userName="ngModel" class="form-control" id="userName" name="userName" placeholder="Username"
+          [ngModelOptions]="{updateOn: 'submit'}" [ngClass]="{'is-invalid': (form.submitted && !isAuthticated)}" maxlength="10" required>
+
+      </div>
+
+      <div class="form-group" [ngClass]="{'has-danger': (form.dirty && password.invalid)}">
+        <label class="form-control-label sr-only" for="password" class="sr-only">Password</label>
+        <input type="password" [(ngModel)]="user.password" #password="ngModel" class="form-control" id="password" name="password"
+          placeholder="Password" [ngModelOptions]="{updateOn: 'submit'}" [ngClass]="{'is-invalid': (form.submitted && !isAuthticated)}"
+          maxlength="10" required />
+        <div class="invalid-feedback">Error. Please type the corrent credentials to login</div>
+      </div>
+
+
+      <button class="btn btn-lg btn-block btn-primary" [ngClass]="{ 'btn-danger': form.submitted && !isAuthticated }" type="submit">Login</button>
+
+    </form>
+
+
+
+  </div>
+
+</body>
