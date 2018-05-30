@@ -1,12 +1,12 @@
-# Angular Posts Board
+# Angular Posts Board System
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
-## Useage
+## Usage
 
 1. clone the repo to your local directory and cd into it
-2. run npm install
-3. run ng serve -o
+2. run `npm install`
+3. run `ng serve -o`
 
 
 ## Build
