@@ -5,7 +5,7 @@ import { User } from "../models/user.model";
   providedIn: "root"
 })
 export class AuthService {
-  users: User[] = [{ userName: "admin", password: "admin" }];
+  private users: User[] = [{ userName: "admin", password: "admin" }];
 
   loggedUser: User;
 
