@@ -11,15 +11,13 @@
         <form #form="ngForm" novalidate>
           <div class="form-group has-danger">
             <label class="form-control-label sr-only" for="author">Author</label>
-            <input type="text" #author="ngModel" [(ngModel)]="note.author" class="form-control"
-              id="author" name="author" placeholder="Enter author name"
+            <input type="text" #author="ngModel" [(ngModel)]="note.author" class="form-control" id="author" name="author" placeholder="Enter author name"
               required>
           </div>
           <div class="form-group">
             <label class="form-control-label sr-only" for="author">Description</label>
             <textarea #description="ngModel" [(ngModel)]="note.description" class="form-control" id="description" name="description"
-              rows="4" cols="50" placeholder="Enter note description" required>
-            </textarea>
+              rows="4" cols="50" placeholder="Enter note description" required></textarea>
             <div class="invalid-form">* All fields are required</div>
           </div>
         </form>
