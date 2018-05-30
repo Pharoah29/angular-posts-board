@@ -23,7 +23,8 @@ export class LoginComponent implements OnInit {
     this.isAuthticated = current != null;
 
     if (this.isAuthticated) {
-      //save the user info for authenticatin checks within the gaurd
+      //save the user info for authenticatin checks within the auth gaurd
+      //can be stored for later use in localstorge for persistance
       this.authService.loggedUser = current;
 
       this.router.navigate([""]);
