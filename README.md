@@ -1,4 +1,4 @@
-# Angular Posts Board System!
+# Angular Posts Board System
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3 and Bootstrap 4.
 
