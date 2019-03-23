@@ -1,4 +1,4 @@
-# Angular Posts Board System
+# Angular Posts Board System!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3 and Bootstrap 4.
 
@@ -10,8 +10,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Build
 
-<<<<<<< HEAD
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.######
-=======
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.33
->>>>>>> d96dbe26b658f5cfd8bdd9480a99b0deb6c3a7f9
+
